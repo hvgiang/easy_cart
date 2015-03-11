@@ -14,6 +14,8 @@ Welcome to Easy Cart CMS
 
 ## Cài đặt cho developers
 
+Đầu tiên bạn cần phải fork repository này ra thành một repo của riêng bạn.
+
 Nếu bạn nào đã biết sử dụng `git` thì không cần phải nhắc lại nữa
 Còn nếu bạn vẫn chưa biết tới em nó thì có thể tham khảo tại
 [http://git-scm.com](http://git-scm.com) hoặc vào [http://git-scm.com/downloads](http://git-scm.com/downloads) để tải em nó về. Cách cài đặt thì giống hệt với cách cài các phần mềm khác. Nếu không biết cài thì các bạn vui lòng nhờ bạn bè hoặc người yêu (người thường xuyên bạn bắt cài windows hoặc IDM) cài giúp.
@@ -22,7 +24,10 @@ Sau khi đã cài đặt được `GIT-SCM` thì các bạn bật GIT BASH ( n�
 Các bạn nhập lệnh
 
 ```
-git clone https://github.com/phpgang/easy_cart.git <duong_dan_thu_muc>
+git clone ten_repo_ban_vua_fork <duong_dan_thu_muc>
+# Ví dụ mình fork ra thì sẽ là
+# git clone https://github.com/dotuancd/easy_cart.git <duong_dan_thu_muc>
+
 ```
 Nếu bạn không nhập đường dẫn thư mục thì git sẽ tự động tạo một thư mục là easy_cart vào thư mục bạn đang đứng.
 Nếu muốn clone luôn vào thư mục hiện tại (không tạo thư mục con) thì các bạn dí dấu chấm (.) vào chỗ đường dẫn thư mục nhé.
