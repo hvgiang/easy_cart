@@ -1,0 +1,43 @@
+<div class="jumbotron">
+    <h1><?php echo sprintf($this->translate('Cài xong %sZend Framework 2%s'), '<span class="zf-green">', '</span>') ?></h1>
+    <p><?php echo sprintf($this->translate('Vâng vậy là việc cài đặt đã xong %sZend Framework 2%s version %s, giờ chỉ đợi document là có thể thi triển được rồi.'), '<span class="zf-green">', '</span>', \Zend\Version\Version::VERSION) ?></p>
+</div>
+
+<div class="row">
+
+    <div class="col-md-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title"><?php echo $this->translate('Follow Development') ?></h3>
+            </div>
+            <div class="panel-body">
+                <p><?php echo $this->translate('Đây là một CMS giúp tạo và quản lý của hàng của bạn một cách dễ dàng dựa trên nền tảng Zend 2. Để biết thêm các tính năng của phần mềm xin bạn vui lòng đợi vài ngày!'); ?></p>
+                <p><a class="btn btn-success pull-right" href="https://github.com/phpgang/easy_cart" target="_blank"><?php echo $this->translate('Đến Github xem có gì mới không') ?> &raquo;</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title"><?php echo $this->translate('Follow Wiki') ?></h3>
+            </div>
+            <div class="panel-body">
+                <p><?php echo sprintf($this->translate('The community is working on developing a community site to serve as a repository and gallery for ZF2 modules. The project is available %son GitHub%s. The site is currently live and currently contains a list of some of the modules already available for ZF2.'), '<a href="https://github.com/zendframework/modules.zendframework.com">', '</a>') ?></p>
+                <p><a class="btn btn-success pull-right" href="https://github.com/phpgang/easy_cart/wiki" target="_blank"><?php echo $this->translate('Đến Wiki trên Github') ?> &raquo;</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title"><?php echo $this->translate('Help &amp; Support') ?></h3>
+            </div>
+            <div class="panel-body">
+                <p><?php echo sprintf($this->translate('If you need any help or support while developing with ZF2, you may reach us via IRC: %s#zftalk on Freenode%s. We\'d love to hear any questions or feedback you may have regarding the beta releases. Alternatively, you may subscribe and post questions to the %smailing lists%s.'), '<a href="irc://irc.freenode.net/zftalk">', '</a>', '<a href="http://framework.zend.com/wiki/display/ZFDEV/Mailing+Lists">', '</a>') ?></p>
+                <p><a class="btn btn-success pull-right" href="http://webchat.freenode.net?channels=zftalk" target="_blank"><?php echo $this->translate('Ping us on IRC') ?> &raquo;</a></p>
+            </div>
+        </div>
+    </div>
+</div>
